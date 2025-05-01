@@ -59,7 +59,8 @@
         "params": {
           "path": "/.mattrbld/collections/newCollection.json"
         }
-      }
+      },
+      "showInDashboard": true
     }
   ],
   "slugifyOptions": null,

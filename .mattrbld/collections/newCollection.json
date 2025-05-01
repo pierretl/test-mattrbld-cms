@@ -1,10 +1,12 @@
 {
   "allowedTypes": null,
-  "dir": "",
+  "dir": "/folder2",
   "disableComments": false,
   "disablePreview": false,
   "draftByDefault": false,
-  "schemas": [],
+  "schemas": [
+    "/.mattrbld/schemas/Test/test.json"
+  ],
   "linkable": false,
   "maxSize": null,
   "permissions": {
