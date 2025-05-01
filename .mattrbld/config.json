@@ -50,6 +50,16 @@
       },
       "onlyPrivileged": true,
       "protected": true
+    },
+    {
+      "icon": "text-alt",
+      "label": "Accueil",
+      "target": {
+        "name": "Project.Collection",
+        "params": {
+          "path": "/.mattrbld/collections/newCollection.json"
+        }
+      }
     }
   ],
   "slugifyOptions": null,
