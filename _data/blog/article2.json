@@ -1,0 +1,9 @@
+{
+  "text": "article type liste",
+  "date": "2025-05-01T10:39:48+02:00",
+  "list": [
+    "11111",
+    "222"
+  ],
+  "___mb_schema": "/.mattrbld/schemas/article/liste.json"
+}
