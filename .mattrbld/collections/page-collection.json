@@ -1,0 +1,20 @@
+{
+  "allowedTypes": null,
+  "dir": "/_data/page",
+  "disableComments": false,
+  "disablePreview": false,
+  "draftByDefault": false,
+  "schemas": [
+    "/.mattrbld/schemas/page/page-accueil.json",
+    "/.mattrbld/schemas/page/page-contact.json"
+  ],
+  "linkable": false,
+  "maxSize": null,
+  "permissions": {
+    "everybody": [
+      "everything"
+    ]
+  },
+  "type": "json",
+  "urlTemplate": ""
+}

@@ -65,7 +65,12 @@
     {
       "icon": "folder",
       "label": "Page",
-      "target": null
+      "target": {
+        "name": "Project.Collection",
+        "params": {
+          "path": "/.mattrbld/collections/page-collection.json"
+        }
+      }
     }
   ],
   "slugifyOptions": null,

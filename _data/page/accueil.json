@@ -1,0 +1,11 @@
+{
+  "text": "accueil tab 1",
+  "rich-text": "<p>contenu</p>",
+  "date": "2025-05-01T10:56:03+02:00",
+  "rich-text-1": "<p>accueil tab 2</p>",
+  "tags": [
+    "test",
+    "cms"
+  ],
+  "___mb_schema": "/.mattrbld/schemas/page/page-accueil.json"
+}
