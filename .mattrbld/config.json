@@ -57,7 +57,7 @@
       "target": {
         "name": "Project.Collection",
         "params": {
-          "path": "/.mattrbld/collections/newCollection.json"
+          "path": "/.mattrbld/collections/blog-collection.json"
         }
       },
       "showInDashboard": true
