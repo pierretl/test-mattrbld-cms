@@ -1,0 +1,17 @@
+{
+  "text": "titre",
+  "date": "2025-05-01T10:38:51+02:00",
+  "text-1": "sub",
+  "rich-text": "<p>rte</p>",
+  "columns": [
+    {
+      "___mb_type": "number",
+      "number": 1
+    },
+    {
+      "___mb_type": "text-2",
+      "text-2": "un"
+    }
+  ],
+  "___mb_schema": "/.mattrbld/schemas/article/base.json"
+}
