@@ -10,18 +10,8 @@
   "name": "test-mattrbld-cms",
   "sidebar": [
     {
-      "label": "The sidebar has not yet been configured for this project"
-    },
-    {
-      "icon": "wrench-and-driver",
-      "label": "Configure now",
-      "target": {
-        "name": "Project.Settings",
-        "query": {
-          "tab": "sidebar"
-        }
-      },
-      "onlyPrivileged": true
+      "label": "Bienvenue !",
+      "target": null
     },
     {
       "separator": true
@@ -43,13 +33,7 @@
       "protected": true
     },
     {
-      "label": "Settings",
-      "icon": "settings",
-      "target": {
-        "name": "Project.Settings"
-      },
-      "onlyPrivileged": true,
-      "protected": true
+      "separator": true
     },
     {
       "icon": "folder",
@@ -64,13 +48,43 @@
     },
     {
       "icon": "folder",
-      "label": "Page",
+      "label": "Toutes les pages",
       "target": {
         "name": "Project.Collection",
         "params": {
           "path": "/.mattrbld/collections/page-collection.json"
         }
+      },
+      "showInDashboard": true
+    },
+    {
+      "icon": null,
+      "label": "Page prinicpal",
+      "target": null
+    },
+    {
+      "icon": null,
+      "label": "Accueil",
+      "target": {
+        "name": "Edit Content",
+        "params": {
+          "collection": "page-collection.json",
+          "path": "/_data/page/accueil.json"
+        }
       }
+    },
+    {
+      "separator": true
+    },
+    {
+      "label": "Configuration",
+      "icon": "settings",
+      "target": {
+        "name": "Project.Settings"
+      },
+      "onlyPrivileged": true,
+      "protected": true,
+      "showInDashboard": false
     }
   ],
   "slugifyOptions": null,
