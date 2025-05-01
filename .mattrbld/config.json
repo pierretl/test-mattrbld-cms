@@ -61,6 +61,11 @@
         }
       },
       "showInDashboard": true
+    },
+    {
+      "icon": "folder",
+      "label": "Page",
+      "target": null
     }
   ],
   "slugifyOptions": null,

@@ -1,0 +1,66 @@
+{
+  "fields": [
+    {
+      "type": "text",
+      "default": null,
+      "icon": "text-input",
+      "key": "text",
+      "label": "Unformatted Text",
+      "localised": false,
+      "options": {
+        "wrapping": true,
+        "multiline": false
+      },
+      "tab": "Untitled Tab",
+      "validation": {
+        "enforceMinMax": true,
+        "max": null,
+        "min": null,
+        "regex": null,
+        "regexError": null,
+        "required": false,
+        "unit": "length"
+      },
+      "value": null,
+      "version": 1,
+      "visibility": {
+        "hidden": false,
+        "showByValue": {
+          "field": null
+        }
+      }
+    },
+    {
+      "type": "checkboxes",
+      "default": null,
+      "icon": "checkbox-list",
+      "key": "checkboxes",
+      "label": "Checkboxes",
+      "options": {
+        "type": "inline",
+        "checkboxes": []
+      },
+      "tab": "Untitled Tab",
+      "validation": {
+        "enforceMinMax": false,
+        "max": null,
+        "min": null,
+        "unit": "selected"
+      },
+      "value": null,
+      "version": 1,
+      "visibility": {
+        "hidden": false,
+        "showByValue": {
+          "field": null
+        }
+      }
+    }
+  ],
+  "tabs": [
+    {
+      "label": "Untitled Tab",
+      "groupAs": null
+    }
+  ]
+}
