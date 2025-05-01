@@ -81,8 +81,8 @@
   "media": {
     "advanced": false,
     "customFields": null,
-    "dir": "",
-    "maxSize": null,
+    "dir": "/_media",
+    "maxSize": 5,
     "outputPath": null,
     "permissions": {
       "everybody": [
