@@ -1,0 +1,98 @@
+{
+  "fields": [
+    {
+      "type": "text",
+      "default": null,
+      "icon": "text-input",
+      "key": "text",
+      "label": "Unformatted Text",
+      "localised": false,
+      "options": {
+        "wrapping": true,
+        "multiline": false
+      },
+      "tab": "Untitled Tab",
+      "validation": {
+        "enforceMinMax": true,
+        "max": null,
+        "min": null,
+        "regex": null,
+        "regexError": null,
+        "required": false,
+        "unit": "length"
+      },
+      "value": null,
+      "version": 1,
+      "visibility": {
+        "hidden": false,
+        "showByValue": {
+          "field": null
+        }
+      }
+    },
+    {
+      "type": "date",
+      "default": null,
+      "icon": "calendar",
+      "key": "date",
+      "label": "Date and Time",
+      "options": {
+        "outputFormat": "iso",
+        "removable": false,
+        "showTime": true,
+        "defaultToNow": true,
+        "useAsUpdatedAt": false,
+        "only": null
+      },
+      "tab": "Untitled Tab",
+      "validation": {
+        "max": null,
+        "min": null,
+        "required": false,
+        "unit": "date",
+        "isString": true
+      },
+      "value": null,
+      "version": 2,
+      "visibility": {
+        "hidden": false,
+        "showByValue": {
+          "field": null
+        }
+      }
+    },
+    {
+      "type": "list",
+      "default": null,
+      "icon": "bullet-list",
+      "key": "list",
+      "label": "Sortable list",
+      "localised": false,
+      "options": {
+        "limitToModel": false,
+        "model": []
+      },
+      "tab": "Untitled Tab",
+      "validation": {
+        "enforceMinMax": false,
+        "max": null,
+        "min": null,
+        "unit": "list items"
+      },
+      "value": null,
+      "version": 1,
+      "visibility": {
+        "hidden": false,
+        "showByValue": {
+          "field": null
+        }
+      }
+    }
+  ],
+  "tabs": [
+    {
+      "label": "Untitled Tab",
+      "groupAs": null
+    }
+  ]
+}

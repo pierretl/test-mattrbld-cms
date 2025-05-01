@@ -160,6 +160,113 @@
           "field": null
         }
       }
+    },
+    {
+      "type": "columns",
+      "default": [
+        {
+          "___mb_type": "number",
+          "number": null
+        },
+        {
+          "___mb_type": "text-2",
+          "text-2": null
+        }
+      ],
+      "icon": "columns",
+      "key": "columns",
+      "label": "Columns",
+      "options": {
+        "allowEditing": true,
+        "itemLabel": "Column"
+      },
+      "tab": "Page",
+      "validation": {
+        "max": null,
+        "min": null,
+        "unit": "columns"
+      },
+      "value": [
+        {
+          "type": "toggle",
+          "default": null,
+          "icon": "toggle-on",
+          "key": "toggle",
+          "label": "Toggle",
+          "options": {
+            "iconLeft": null,
+            "iconRight": null
+          },
+          "tab": "Page",
+          "value": null,
+          "version": 1,
+          "visibility": {
+            "hidden": false,
+            "showByValue": {
+              "field": null
+            }
+          }
+        },
+        {
+          "type": "text",
+          "default": null,
+          "icon": "text-input",
+          "key": "text-2",
+          "label": "Unformatted Text",
+          "localised": false,
+          "options": {
+            "wrapping": true,
+            "multiline": false
+          },
+          "tab": "Page",
+          "validation": {
+            "enforceMinMax": true,
+            "max": null,
+            "min": null,
+            "regex": null,
+            "regexError": null,
+            "required": false,
+            "unit": "length"
+          },
+          "value": null,
+          "version": 1,
+          "visibility": {
+            "hidden": false,
+            "showByValue": {
+              "field": null
+            }
+          }
+        },
+        {
+          "type": "number",
+          "default": null,
+          "icon": "number",
+          "key": "number",
+          "label": "Number",
+          "localised": false,
+          "tab": "Page",
+          "validation": {
+            "max": null,
+            "min": null,
+            "required": false
+          },
+          "value": null,
+          "version": 1,
+          "visibility": {
+            "hidden": false,
+            "showByValue": {
+              "field": null
+            }
+          }
+        }
+      ],
+      "version": 1,
+      "visibility": {
+        "hidden": false,
+        "showByValue": {
+          "field": null
+        }
+      }
     }
   ],
   "tabs": [

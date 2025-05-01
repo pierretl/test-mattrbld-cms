@@ -52,8 +52,8 @@
       "protected": true
     },
     {
-      "icon": "text-alt",
-      "label": "Accueil",
+      "icon": "folder",
+      "label": "Blog",
       "target": {
         "name": "Project.Collection",
         "params": {
@@ -71,7 +71,7 @@
   "media": {
     "advanced": false,
     "customFields": null,
-    "dir": null,
+    "dir": "",
     "maxSize": null,
     "outputPath": null,
     "permissions": {

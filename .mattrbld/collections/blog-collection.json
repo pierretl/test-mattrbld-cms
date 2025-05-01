@@ -1,11 +1,12 @@
 {
   "allowedTypes": null,
-  "dir": "/folder2",
+  "dir": "/_data/blog",
   "disableComments": false,
   "disablePreview": false,
   "draftByDefault": false,
   "schemas": [
-    "/.mattrbld/schemas/Test/test.json"
+    "/.mattrbld/schemas/article/base.json",
+    "/.mattrbld/schemas/article/liste.json"
   ],
   "linkable": false,
   "maxSize": null,
